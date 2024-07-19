@@ -195,7 +195,8 @@ body h2 {
 }
 
 .proyectos img{
-   display: block;
+   display: flex;
    margin: auto;
    margin-bottom: 40px;
 }
+
