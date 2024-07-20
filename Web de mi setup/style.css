@@ -120,3 +120,12 @@ body h2 {
     grid-row: inherit;
     position: relative;
 }
+
+.perifericos h2, h4{
+    color: #2C2C2C;
+
+}
+
+.monitores h2, h4{
+    color: #2C2C2C;
+}
