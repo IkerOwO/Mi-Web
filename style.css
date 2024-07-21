@@ -103,9 +103,20 @@ body h2 {
     display: flex;
 }
 
+.componentes .juegos{
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
 .componentes .insti{
     float: right;
     margin-left: 100px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
 }
 
 .componentes .insti h4{
@@ -133,6 +144,10 @@ body h2 {
 .componentes .hp{
     float: right;
     margin-left: 100px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
 }
 
 .componentes .raspberry h4{
@@ -150,6 +165,10 @@ body h2 {
 .componentes .raspberry{
     float: right;
     margin-left: 100px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
 }
 
 .componentes .portatil h4{
@@ -167,6 +186,35 @@ body h2 {
 .componentes .portatil{
     float: right;
     margin-left: 100px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.componentes .juegos:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.componentes .insti:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.componentes .pi:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.componentes .hp:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.componentes .portatil:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
 }
 
 .ball {
